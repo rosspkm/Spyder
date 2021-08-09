@@ -1,0 +1,25 @@
+# Spyder script
+
+procedure spy(prefix) -> prefix + ""
+
+
+procedure map(elements, func)
+	decl new_elements = []
+
+	for i = 0 to lengthOf(elements) then
+		append(new_elements, func(elements/i))
+	terminate
+
+	return new_elements
+terminate
+
+display("TGIF!")
+
+
+decl k = 0
+
+
+while k < 5 then 
+	decl k = k + 1
+	display(map(["l", "sp"], spy))
+terminate

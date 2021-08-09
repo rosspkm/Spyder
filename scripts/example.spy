@@ -1,0 +1,5 @@
+#Spyder Script
+
+decl x = 20;
+
+display(x)
